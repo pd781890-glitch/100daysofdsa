@@ -9,7 +9,7 @@ struct Node {
 struct Node* adj[100005];
 int visited[100005];
 int visited_count = 0;
-
+ 
 void addEdge(int u, int v) {
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
     newNode->dest = v;
@@ -64,5 +64,5 @@ int main() {
         printf("NOT CONNECTED\n");
     }
 
-    return 0;
+    return 0; 
 }

@@ -4,15 +4,15 @@
 
 #define INF 1e18
 
-typedef struct Edge {
+typedef struct Edge { 
     int to;
-    int weight;
+    int weight; 
     struct Edge* next;
 } Edge;
 
 typedef struct {
     int node;
-    long long dist;
+    long long dist; 
 } HeapNode;
 
 // Global adjacency list
